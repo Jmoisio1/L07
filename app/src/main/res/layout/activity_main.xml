@@ -15,7 +15,6 @@
         android:layout_marginTop="144dp"
         android:onClick="Function"
         android:text="Button"
-        app:layout_constraintBottom_toTopOf="@+id/nav_view"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.094"
         app:layout_constraintStart_toStartOf="parent"
@@ -30,8 +29,6 @@
         android:layout_marginTop="148dp"
         android:text="Tulostus"
         android:textSize="30dp"
-        app:layout_constraintBottom_toBottomOf="@+id/nav_view"
-        app:layout_constraintEnd_toEndOf="@+id/nav_host_fragment_activity_main"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
